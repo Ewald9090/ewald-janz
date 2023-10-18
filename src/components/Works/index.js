@@ -4,24 +4,35 @@ import { Carousel } from 'react-responsive-carousel';
 
 import "./Works.css"
 
-import P1 from './Paintings/shame on me,shame on you/_MG_2606.jpg';
-import P2 from './Paintings/shame on me,shame on you/_MG_2607.jpg';
-import P3 from './Paintings/shame on me,shame on you/_MG_2609.jpg'
-import P4 from './Paintings/shame on me,shame on you/_MG_2612.jpg'
-import P5 from './Paintings/shame on me,shame on you/_MG_2615.jpg'
-import P6 from './Paintings/shame on me,shame on you/_MG_2616.jpg'
-import P7 from './Paintings/shame on me,shame on you/_MG_2618.jpg'
-import P8 from './Paintings/shame on me,shame on you/_MG_2621.jpg'
-import P9 from './Paintings/shame on me,shame on you/_MG_2623.jpg'
-import P10 from './Paintings/shame on me,shame on you/_MG_2625.jpg'
-import P11 from './Paintings/shame on me,shame on you/_MG_2628.jpg'
-import P12 from './Paintings/shame on me,shame on you/_MG_2629.jpg'
-import P13 from './Paintings/shame on me,shame on you/_MG_2632.jpg'
-import P14 from './Paintings/shame on me,shame on you/_MG_2634.jpg'
-import P16 from './Paintings/shame on me,shame on you/_MG_2635.jpg'
-import P17 from './Paintings/shame on me,shame on you/_MG_2636.jpg'
-import P18 from './Paintings/shame on me,shame on you/_MG_2638.jpg'
-import P19 from './Paintings/shame on me,shame on you/_MG_2639.jpg'
+import P1 from './Paintings/_MG_2606.jpg';
+import P2 from './Paintings/_MG_2607.jpg';
+import P3 from './Paintings/_MG_2609.jpg'
+import P4 from './Paintings/_MG_2612.jpg'
+import P5 from './Paintings/_MG_2615.jpg'
+import P6 from './Paintings/_MG_2616.jpg'
+import P7 from './Paintings/_MG_2618.jpg'
+import P8 from './Paintings/_MG_2621.jpg'
+import P9 from './Paintings/_MG_2623.jpg'
+import P10 from './Paintings/_MG_2625.jpg'
+import P11 from './Paintings/_MG_2628.jpg'
+import P12 from './Paintings/_MG_2629.jpg'
+import P13 from './Paintings/_MG_2632.jpg'
+import P14 from './Paintings/_MG_2634.jpg'
+import P16 from './Paintings/_MG_2635.jpg'
+import P17 from './Paintings/_MG_2636.jpg'
+import P18 from './Paintings/_MG_2638.jpg'
+import P19 from './Paintings/_MG_2639.jpg'
+import P20 from './Paintings/Ewald_Janz_02.jpg'
+import P21 from './Paintings/Ewald_Janz_03.jpg'
+import P22 from './Paintings/Ewald_Janz_05.jpg'
+import P23 from './Paintings/Ewald_Janz_06.jpg'
+import P24 from './Paintings/Ewald_Janz_07.jpg'
+import P25 from './Paintings/Ewald_Janz_08.jpg'
+import P26 from './Paintings/Ewald_Janz_09.jpg'
+import P27 from './Paintings/Ewald_Janz_13.jpg'
+import P28 from './Paintings/Ewald_Janz_16.jpg'
+import P29 from './Paintings/sdnsa.jpg'
+
 
 
 export default function Works() {
@@ -46,6 +57,16 @@ export default function Works() {
     { name: 'Painting 17', url: P17 },
     { name: 'Painting 18', url: P18 },
     { name: 'Painting 19', url: P19 },
+    { name: 'Painting 20', url: P20 },
+    { name: 'Painting 21', url: P21 },
+    { name: 'Painting 22', url: P22 },
+    { name: 'Painting 23', url: P23 },
+    { name: 'Painting 24', url: P24 },
+    { name: 'Painting 25', url: P25 },
+    { name: 'Painting 26', url: P26 },
+    { name: 'Painting 27', url: P27 },
+    { name: 'Painting 28', url: P28 },
+    { name: 'Painting 29', url: P29 },
   ];
 
   const renderImages = (category) => {
