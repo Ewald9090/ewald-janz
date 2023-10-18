@@ -3,7 +3,8 @@ import {
   Routes,
   Route,
 } from "react-router-dom";import Index from "./components/Index";
-import './App.css';
+import Works from "./components/Works";
+
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<Index/>}/>
+        </Routes>
+        <Routes>
+          <Route exact path="/works" element={<Works/>} />
         </Routes>
       </Router>
     </div>

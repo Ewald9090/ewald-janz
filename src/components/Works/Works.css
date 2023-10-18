@@ -1,0 +1,36 @@
+#works-wrapper {
+    height: 100vh;
+    display: flex;
+}
+
+#works-nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#gallery-container {
+    max-height: 100vh;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#carousel-container{
+    max-height: 75vh;
+    max-width: 100%;
+    object-fit: scale-down;
+}
+
+.gallery-image {
+    max-height: 75vh;
+    max-width: 100%;
+    object-fit: scale-down;
+
+}
+
+.gallery-image img {
+    max-height: 75vh;
+    max-width: 100%;
+    object-fit: scale-down;
+}

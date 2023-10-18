@@ -20,6 +20,11 @@ code {
     monospace;
 }
 
+
+.App {
+  text-align: center;
+}
+
 .page-wrapper {
   height: 100vh;
   display: flex;
@@ -41,6 +46,13 @@ a {
   color: #000000;
 }
 
+.side-nav {
+  width: fit-content;
+  min-width: 8em;
+  height: 100%;
+  text-align: left;
+  padding: 5px 10px;
+}
 
 @media screen and (max-width: 768px) {
   #site-nav img {
