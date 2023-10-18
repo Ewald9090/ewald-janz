@@ -82,6 +82,9 @@ export default function Works() {
         <h2>WORKS</h2>
         <ul id="works-nav">
           <li onClick={() => setActiveTab('paintings')}>Paintings</li>
+          <li onClick={() => setActiveTab('drawings')}>Drawings</li>
+          <li onClick={() => setActiveTab('collages')}>Collages</li>
+          <li onClick={() => setActiveTab('object')}>Object</li>
         </ul>
       </div>
       <div id="gallery-container">
