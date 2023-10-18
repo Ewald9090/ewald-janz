@@ -12,8 +12,6 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/works" element={<Works/>} />
-        </Routes>
-        <Routes>
           <Route exact path="/" element={<Index/>}/>
         </Routes>
       </Router>
