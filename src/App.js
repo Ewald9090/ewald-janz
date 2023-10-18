@@ -2,7 +2,8 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-} from "react-router-dom";import Index from "./components/Index";
+} from "react-router-dom";
+import Index from "./components/Index";
 import Works from "./components/Works";
 
 
@@ -11,7 +12,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route exact path="/works" element={<Works/>} />
+          <Route path="/works" element={<Works/>} />
           <Route exact path="/" element={<Index/>}/>
         </Routes>
       </Router>
