@@ -15,26 +15,26 @@ import "./Index.css"
 export default function Index() {
     return (
         <>
-        <div class="page-wrapper">
-    		<div id="site-nav">
-                <div id="vorname">
-                    <img src={E} alt="E" height="310" densities={[1.5, 2]} class="letter" id="E"/>
-                    <img src={W} alt="W" height="310" densities={[1.5, 2]} class="letter" id="W"/>
-                    <img src={A} alt="A" height="310" densities={[1.5, 2]} class="letter" id="A"/>
-                    <img src={L} alt="L" height="310" densities={[1.5, 2]} class="letter" id="L"/>
-                    <img src={D} alt="D" height="310" densities={[1.5, 2]} class="letter" id="D"/>
+            <div class="page-wrapper">
+                <div id="site-nav">
+                    <div id="vorname">
+                        <img src={E} alt="E" height="310" densities={[1.5, 2]} class="letter" id="E"/>
+                        <img src={W} alt="W" height="310" densities={[1.5, 2]} class="letter" id="W"/>
+                        <img src={A} alt="A" height="310" densities={[1.5, 2]} class="letter" id="A"/>
+                        <img src={L} alt="L" height="310" densities={[1.5, 2]} class="letter" id="L"/>
+                        <img src={D} alt="D" height="310" densities={[1.5, 2]} class="letter" id="D"/>
+                    </div>
+                    <div id="nachname">
+                        <img src={J} alt="J" height="310" densities={[1.5, 2]} class="letter" id="J"/>
+                        <img src={A2} alt="A" height="310" densities={[1.5, 2]} class="letter"/>
+                        <img src={N} alt="N" height="310" densities={[1.5, 2]} class="letter"/>
+                        <img src={Z} alt="Z" height="310" densities={[1.5, 2]} class="letter"/>
+                    </div>
                 </div>
-                <div id="nachname">
-                    <img src={J} alt="J" height="310" densities={[1.5, 2]} class="letter" id="J"/>
-                    <img src={A2} alt="A" height="310" densities={[1.5, 2]} class="letter"/>
-                    <img src={N} alt="N" height="310" densities={[1.5, 2]} class="letter"/>
-                    <img src={Z} alt="Z" height="310" densities={[1.5, 2]} class="letter"/>
-                </div>
-    		</div>
-        </div>
-        <div class="page-wrapper">
-            <Nav/>
-        </div>
+            </div>
+            <div class="page-wrapper">
+                <Nav/>
+            </div>
         </>
     )
 }

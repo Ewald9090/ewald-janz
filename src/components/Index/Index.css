@@ -1,15 +1,14 @@
 #site-nav {
-    width: 50em;
+    width: 100vw;
 }
 
 #site-nav img {
-    width: 6em;
+    height: 20em;
 }
 
 @media screen and (max-width: 768px) {
     #site-nav img {
-        width: auto;
-        height: 14em;
+        height: 17em;
     }
 }
   
