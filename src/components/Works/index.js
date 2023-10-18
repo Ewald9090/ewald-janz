@@ -24,7 +24,6 @@ import P18 from './Paintings/shame on me,shame on you/_MG_2638.jpg'
 import P19 from './Paintings/shame on me,shame on you/_MG_2639.jpg'
 
 
-
 export default function Works() {
   const [activeTab, setActiveTab] = useState('paintings');
 

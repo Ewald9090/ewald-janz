@@ -39,3 +39,11 @@
     max-width: 100%;
     object-fit: scale-down;
 }
+
+@media screen and (max-width: 768px) {
+    #works-wrapper {
+        flex-direction: column;
+        border: 2px solid red;
+    }
+  }
+  
