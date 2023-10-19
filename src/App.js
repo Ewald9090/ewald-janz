@@ -2,7 +2,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Naviga
 } from "react-router-dom";
 import Index from "./components/Index";
 import Works from "./components/Works";
