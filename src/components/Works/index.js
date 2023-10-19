@@ -47,7 +47,7 @@ import D7 from './Drawings/img089.jpg'
 import C2 from './Collages/Ewald Janz_003.jpg'
 import C3 from './Collages/Ewald Janz_005.jpg'
 import C4 from './Collages/Freie Kunst 06.2019 - 06.jpg'
-import C5 from './Collages/Verräter.png'
+// import C5 from './Collages/Verräter.png'
 
 //Object
 import O1 from './Object/190210_winterwerkschau_weimar_DSC5438_konrad_behr.jpg'
@@ -107,7 +107,7 @@ export default function Works({ category }) {
     { name: 'Collage 2', url: C2 },
     { name: 'Collage 3', url: C3 },
     { name: 'Collage 4', url: C4 },
-    { name: 'Collage 5', url: C5 },
+    // { name: 'Collage 5', url: C5 },
   ];
 
   const objectImages = [
