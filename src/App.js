@@ -6,7 +6,7 @@ import {
 import Index from "./components/Index";
 import Works from "./components/Works";
 import Text from "./components/Text";
-
+import CV from "./components/CV"
 
 function App() {
   return (
@@ -20,6 +20,9 @@ function App() {
           <Route path="/works/object" element={<Works category={"object"}/>} />
 
           <Route path="/text" element={<Text/>}/>
+
+          <Route path="/cv" element={<CV/>}/>
+
           <Route exact path="/" element={<Index/>}/>
         </Routes>
       </Router>
