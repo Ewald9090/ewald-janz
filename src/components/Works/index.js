@@ -43,7 +43,7 @@ import D6 from './Drawings/img041 (2).jpg'
 import D7 from './Drawings/img089.jpg'
 
 // Collages
-import C1 from './Collages/Doppelgänger.png'
+// import C1 from './Collages/Doppelgänger.png'
 import C2 from './Collages/Ewald Janz_003.jpg'
 import C3 from './Collages/Ewald Janz_005.jpg'
 import C4 from './Collages/Freie Kunst 06.2019 - 06.jpg'
@@ -103,7 +103,7 @@ export default function Works({ category }) {
   ];
 
   const collagesImages = [
-    { name: 'Collage 1', url: C1 },
+    // { name: 'Collage 1', url: C1 },
     { name: 'Collage 2', url: C2 },
     { name: 'Collage 3', url: C3 },
     { name: 'Collage 4', url: C4 },
