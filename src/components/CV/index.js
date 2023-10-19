@@ -25,7 +25,7 @@ export default function CV() {
         </ul>
         <p>Currently lives and works in Weimar and Leipzig.</p>
         </div>
-        <img alt="Ewald in his studio. Photo@ Theo Rosenfeld" src={Ewald} style={{float: "right", alignSelf: "flex-end"}}/>
+        <img alt="Ewald Janz" src={Ewald} style={{float: "right", alignSelf: "flex-end"}}/>
 
       </div>
     </div>
