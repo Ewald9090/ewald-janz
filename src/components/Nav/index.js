@@ -1,6 +1,6 @@
 import { useState } from 'react';
-
-import "./Nav.css"
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import "./Nav.css";
 
 function Nav() {
   const [showWorksSubMenu, setShowWorksSubMenu] = useState(false);
@@ -17,32 +17,51 @@ function Nav() {
           onMouseEnter={toggleWorksSubMenu}
           onMouseLeave={toggleWorksSubMenu}
         >
-          <a href="/works" className="nav-link">WORKS</a>
+          <Link to="/works" className="nav-link">
+            WORKS
+          </Link>
           {showWorksSubMenu && (
             <ul className="sub-menu">
               <li className="nav-item">
-                <a href="/works/paintings" className="nav-link">Paintings</a>
+                <Link to="/works/paintings" className="nav-link">
+                  Paintings
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="/works/drawings" className="nav-link">Drawings</a>
+                <Link to="/works/drawings" className="nav-link">
+                  Drawings
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="/works/collages" className="nav-link">Collages</a>
+                <Link to="/works/collages" className="nav-link">
+                  Collages
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="/works/object" className="nav-link">Object</a>
+                <Link 
+                  to="/works/object" 
+                  className="nav-link"
+                >
+                  Object
+                </Link>
               </li>
             </ul>
           )}
         </li>
         <li className="nav-item main-rubrik">
-          <a href="/text" className="nav-link">TEXT</a>
+          <Link to="/text" className="nav-link">
+            TEXT
+          </Link>
         </li>
         <li className="nav-item main-rubrik">
-          <a href="/exhibitions" className="nav-link">EXHIBITIONS</a>
+          <Link to="/exhibitions" className="nav-link">
+            EXHIBITIONS
+          </Link>
         </li>
         <li className="nav-item main-rubrik">
-          <a href="/cv" className="nav-link">CV</a>
+          <Link to="/cv" className="nav-link">
+            CV
+          </Link>
         </li>
       </ul>
     </nav>

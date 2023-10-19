@@ -40,6 +40,10 @@
     object-fit: scale-down;
 }
 
+.active {
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 768px) {
     #works-wrapper {
         flex-direction: column;

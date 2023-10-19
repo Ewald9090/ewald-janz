@@ -10,3 +10,7 @@
     font-size: 2em;
 
 }
+
+.sub-menu .nav-link:hover {
+    text-decoration: underline;
+  }
