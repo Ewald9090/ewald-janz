@@ -3,12 +3,6 @@
     display: flex;
 }
 
-#works-nav {
-    display: flex;
-    flex-direction: column;
-    margin-top: 9px;
-}
-
 #works-nav li{
     margin-top: 3px;
     cursor: pointer;

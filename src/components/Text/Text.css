@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Open+Sans:wght@300;600&family=Roboto:ital,wght@1,100&display=swap');
+
+#text-wrapper {
+    display: flex;
+}
+
+#text-wrapper h3 {
+    margin-bottom: 1em;
+}
+
+#text-content-container {
+    padding: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+#artist-statement {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+blockquote {
+font-family: 'Roboto', sans-serif;
+}
