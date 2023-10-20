@@ -8,6 +8,8 @@ import Works from "./components/Works";
 import Text from "./components/Text";
 import CV from "./components/CV"
 import Exhibitions from "./components/Exhibitions";
+import Footer from "./Footer";
+
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
           <Route exact path="/" element={<Index/>}/>
         </Routes>
       </Router>
+      <Footer/>
     </div>
   );
 }

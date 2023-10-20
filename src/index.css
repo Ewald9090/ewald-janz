@@ -61,6 +61,10 @@ a {
   margin-top: 9px;
 }
 
+.hannas-link:hover {
+  color: hotpink;
+}
+
 @media screen and (max-width: 768px) {
   #site-nav img {
     width: auto;
