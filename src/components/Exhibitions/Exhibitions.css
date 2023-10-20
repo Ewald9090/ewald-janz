@@ -26,8 +26,8 @@
     #exhibitions-wrapper {
         flex-direction: column;
     }
-    #exhibitions-wrapper .side-nav {
-        min-height: 10em;
+    #exhibitions-content-container {
+        height: auto;
     }
   }
   
