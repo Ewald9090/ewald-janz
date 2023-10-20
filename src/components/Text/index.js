@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import "./Text.css"
 
 
@@ -5,6 +6,11 @@ export default function Text() {
   return (
     <div id="text-wrapper">
       <div className="side-nav">
+        <Link to="/">
+          <span class="material-symbols-outlined">
+          arrow_back
+          </span>
+        </Link>        
         <h2>TEXT</h2>
         <ul>
             <li>Artist Statement</li>

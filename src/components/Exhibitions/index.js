@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Exhibitions.css"
 
 export default function Exhibitions() {
@@ -68,10 +69,15 @@ export default function Exhibitions() {
         description: "Ausstellung mit Alexander Lang, Tusche Galerie Weimar"
       }
     ];
-    
+
   return (
     <div id="exhibitions-wrapper">
       <div className="side-nav">
+        <Link to="/">
+          <span class="material-symbols-outlined">
+          arrow_back
+          </span>
+        </Link>
         <h2>EXHIBITIONS</h2>
       </div>
       <div id="exhibitions-content-container">

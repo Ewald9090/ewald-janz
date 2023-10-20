@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import the carousel styles
 import { Carousel } from 'react-responsive-carousel';
 import "./Works.css"
@@ -128,6 +129,11 @@ export default function Works({ category }) {
   return (
     <div id="works-wrapper">
       <div className="side-nav">
+        <Link to="/">
+          <span class="material-symbols-outlined">
+          arrow_back
+          </span>
+        </Link>        
         <h2>WORKS</h2>
         <ul id="works-nav">
         <li

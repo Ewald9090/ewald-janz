@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import "./CV.css"
 import Ewald from "./Ewald in his studio. Photo@ Theo Rosenfeld.jpg"
 
@@ -5,6 +7,11 @@ export default function CV() {
   return (
     <div id="cv-wrapper">
       <div className="side-nav">
+        <Link to="/">
+          <span class="material-symbols-outlined">
+          arrow_back
+          </span>
+        </Link>
         <h2>CV</h2>
       </div>
       <div id="cv-content-container">
