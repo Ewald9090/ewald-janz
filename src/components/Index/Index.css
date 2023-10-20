@@ -12,3 +12,9 @@
     }
 }
   
+@media screen and (max-width: 400px) {
+    #site-nav img {
+        height: 13em;
+    }
+}
+  
