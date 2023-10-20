@@ -43,11 +43,11 @@ import D6 from './Drawings/img041 (2).jpg'
 import D7 from './Drawings/img089.jpg'
 
 // Collages
-// import C1 from './Collages/Doppelgänger.png'
+import C1 from './Collages/IMG_5804.jpg'
 import C2 from './Collages/Ewald Janz_003.jpg'
 import C3 from './Collages/Ewald Janz_005.jpg'
 import C4 from './Collages/Freie Kunst 06.2019 - 06.jpg'
-// import C5 from './Collages/Verräter.png'
+import C5 from './Collages/IMG_5806.jpg'
 
 //Object
 import O1 from './Object/190210_winterwerkschau_weimar_DSC5438_konrad_behr.jpg'
@@ -62,19 +62,19 @@ export default function Works({ category }) {
   const [activeTab, setActiveTab] = useState(category ? category : 'paintings');
 
   const paintingsImages = [
-    { name: 'Painting 1', url: P1 },
-    { name: 'Painting 2', url: P2 },
-    { name: 'Painting 3', url: P3 },
-    { name: 'Painting 4', url: P4 },
-    { name: 'Painting 5', url: P5 },
-    { name: 'Painting 6', url: P6 },
-    { name: 'Painting 7', url: P7 },
-    { name: 'Painting 8', url: P8 },
-    { name: 'Painting 9', url: P9 },
-    { name: 'Painting 10', url: P10 },
-    { name: 'Painting 11', url: P11 },
-    { name: 'Painting 12', url: P12 },
-    { name: 'Painting 13', url: P13 },
+    // { name: 'Painting 1', url: P1 },
+    // { name: 'Painting 2', url: P2 },
+    // { name: 'Painting 3', url: P3 },
+    // { name: 'Painting 4', url: P4 },
+    // { name: 'Painting 5', url: P5 },
+    // { name: 'Painting 6', url: P6 },
+    // { name: 'Painting 7', url: P7 },
+    // { name: 'Painting 8', url: P8 },
+    // { name: 'Painting 9', url: P9 },
+    // { name: 'Painting 10', url: P10 },
+    // { name: 'Painting 11', url: P11 },
+    // { name: 'Painting 12', url: P12 },
+    // { name: 'Painting 13', url: P13 },
     { name: 'Painting 14', url: P14 },
     { name: 'Painting 16', url: P16 },
     { name: 'Painting 17', url: P17 },
@@ -89,7 +89,7 @@ export default function Works({ category }) {
     { name: 'Painting 26', url: P26 },
     { name: 'Painting 27', url: P27 },
     { name: 'Painting 28', url: P28 },
-    { name: 'Painting 29', url: P29 },
+    // { name: 'Painting 29', url: P29 },
   ];
 
   const drawingsImages = [
@@ -103,11 +103,11 @@ export default function Works({ category }) {
   ];
 
   const collagesImages = [
-    // { name: 'Collage 1', url: C1 },
+    { name: 'Collage 1', url: C1 },
     { name: 'Collage 2', url: C2 },
     { name: 'Collage 3', url: C3 },
     { name: 'Collage 4', url: C4 },
-    // { name: 'Collage 5', url: C5 },
+    { name: 'Collage 5', url: C5 },
   ];
 
   const objectImages = [
