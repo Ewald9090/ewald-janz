@@ -26,3 +26,13 @@
 blockquote {
 font-family: 'Roboto', sans-serif;
 }
+
+@media screen and (max-width: 768px) {
+    #text-wrapper {
+        flex-direction: column;
+    }
+    #text-wrapper .side-nav {
+        min-height: 5em;
+    }
+  }
+  
