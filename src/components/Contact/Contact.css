@@ -66,3 +66,22 @@ textarea {
   color: #007bff;
   margin-top: 20px;
 }
+
+
+/* Mobile Styling */
+@media (max-width: 768px) {
+  .contact-form {
+    width: 100%;
+  }
+
+  .input-field,
+  textarea {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
