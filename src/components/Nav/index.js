@@ -62,6 +62,11 @@ function Nav() {
           <Link to="/cv" className="nav-link">
             CV
           </Link>
+          <li className="nav-item main-rubrik">
+          <Link to="/contact" className="nav-link">
+            CONTACT
+          </Link>
+        </li>          
         </li>
       </ul>
     </nav>

@@ -9,6 +9,8 @@ import Text from "./components/Text";
 import CV from "./components/CV"
 import Exhibitions from "./components/Exhibitions";
 import Footer from "./Footer";
+import Contact from "./components/Contact";
+import ConfirmationPage from "./components/ConfirmationPage";
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
           <Route path="/text" element={<Text/>}/>
           <Route path="/exhibitions" element={<Exhibitions/>}/>
           <Route path="/cv" element={<CV/>}/>
+          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/form-submit" element={<ConfirmationPage/>}/>
           <Route exact path="/" element={<Index/>}/>
         </Routes>
       </Router>
