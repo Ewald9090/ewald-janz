@@ -20,7 +20,7 @@ export default function CV() {
         <br/>
         <ul>
         <li><span class="year">1990</span> *in Suhl</li>
-        <li><span class="year">1996</span>  Einschulung Grundundrealschule Köppelsdorf, Sonnberg</li>
+        <li><span class="year">1996</span>  Einschulung Grundundrealschule Köppelsdorf, Sonneberg</li>
         <li><span class="year">2006</span>  Realschulabschluss Goetheschule Schalkau, Sonneberg</li>
         <li><span class="year">2007</span>  Gescheiterte Ausbildung zum Gastronomiefachmann, Pertisau am Achensee, Tirol, Österreich</li>
         <li><span class="year"><span style={{display: 'flex', flexDirection: 'column'}}>2007-</span><span>2008</span></span>  Einstiegsqualifizierungsjahr (Maßnahme von Arbeitsamt), Neuhaus am Rennweg</li>

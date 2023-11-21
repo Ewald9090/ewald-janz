@@ -55,7 +55,7 @@ export default function Exhibitions() {
       },
       {
         year: 2022,
-        title: "Beteiligung an der documenta 14 mit 'IRRE@bauhaus'",
+        title: "Beteiligung an der documenta 15 mit 'IRRE@bauhaus'",
         description: "Kassel"
       },
       {
