@@ -2,109 +2,45 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import the carousel styles
 import { Carousel } from 'react-responsive-carousel';
+import useContentful from '../utils/useContentful';
 import "./Works.css"
 
-// Paintings
-import P14 from './Paintings/_MG_2634.jpg'
-import P16 from './Paintings/_MG_2635.jpg'
-import P17 from './Paintings/_MG_2636.jpg'
-import P18 from './Paintings/_MG_2638.jpg'
-import P19 from './Paintings/_MG_2639.jpg'
-import P20 from './Paintings/Ewald_Janz_02.jpg'
-import P21 from './Paintings/Ewald_Janz_03.jpg'
-import P22 from './Paintings/Ewald_Janz_05.jpg'
-import P23 from './Paintings/Ewald_Janz_06.jpg'
-import P24 from './Paintings/Ewald_Janz_07.jpg'
-import P25 from './Paintings/Ewald_Janz_08.jpg'
-import P26 from './Paintings/Ewald_Janz_09.jpg'
-import P27 from './Paintings/Ewald_Janz_13.jpg'
-import P28 from './Paintings/Ewald_Janz_16.jpg'
-
-// Drawings
-import D1 from './Drawings/img012.jpg'
-import D2 from './Drawings/img017.jpg'
-import D3 from './Drawings/img022.jpg'
-import D4 from './Drawings/img030.jpg'
-import D5 from './Drawings/img034.jpg'
-import D6 from './Drawings/img041 (2).jpg'
-import D7 from './Drawings/img089.jpg'
-
-// Collages
-import C1 from './Collages/IMG_5804.jpg'
-import C2 from './Collages/Ewald Janz_003.jpg'
-import C3 from './Collages/Ewald Janz_005.jpg'
-import C4 from './Collages/Freie Kunst 06.2019 - 06.jpg'
-import C5 from './Collages/IMG_5806.jpg'
-
-//Object
-import O1 from './Object/190210_winterwerkschau_weimar_DSC5438_konrad_behr.jpg'
-import O2 from './Object/190210_winterwerkschau_weimar_DSC5445_konrad_behr.jpg' 
-import O3 from './Object/Stimme 2.jpg'
-import O4 from './Object/Stimme.jpg'
-
-
+const collageQuery = `
+  query {
+    collagesCollection {
+      items {
+      title
+        image {
+          url
+        }
+      }
+    }
+  }
+  `
 
 export default function Works({ category }) {
-  console.log(category)
+  const { data: collageData } = useContentful(collageQuery);
   const [activeTab, setActiveTab] = useState(category ? category : 'paintings');
 
-  const paintingsImages = [
-    { name: 'Painting 14', url: P14 },
-    { name: 'Painting 16', url: P16 },
-    { name: 'Painting 17', url: P17 },
-    { name: 'Painting 18', url: P18 },
-    { name: 'Painting 19', url: P19 },
-    { name: 'Painting 20', url: P20 },
-    { name: 'Painting 21', url: P21 },
-    { name: 'Painting 22', url: P22 },
-    { name: 'Painting 23', url: P23 },
-    { name: 'Painting 24', url: P24 },
-    { name: 'Painting 25', url: P25 },
-    { name: 'Painting 26', url: P26 },
-    { name: 'Painting 27', url: P27 },
-    { name: 'Painting 28', url: P28 },
-  ];
-
-  const drawingsImages = [
-    { name: 'Drawing 1', url: D1 },
-    { name: 'Drawing 2', url: D2 },
-    { name: 'Drawing 3', url: D3 },
-    { name: 'Drawing 4', url: D4 },
-    { name: 'Drawing 5', url: D5 },
-    { name: 'Drawing 6', url: D6 },
-    { name: 'Drawing 7', url: D7 },
-  ];
-
-  const collagesImages = [
-    { name: 'Collage 1', url: C1 },
-    { name: 'Collage 2', url: C2 },
-    { name: 'Collage 3', url: C3 },
-    { name: 'Collage 4', url: C4 },
-    { name: 'Collage 5', url: C5 },
-  ];
-
-  const objectImages = [
-    { name: 'Object 1', url: O1 },
-    { name: 'Object 2', url: O2 },
-    { name: 'Object 3', url: O3 },
-    { name: 'Object 4', url: O4 },
-  ];
+  if (collageData) console.log("⭐️ collage query", collageData.collagesCollection.items)
 
   const renderImages = (category) => {
     let images = [];
+    console.log("🍎", collageData)
     switch (category) {
-      case 'paintings':
-        images = paintingsImages;
-        break;
-      case 'drawings':
-        images = drawingsImages;
-        break;
       case 'collages':
-        images = collagesImages;
+        images = collageData.collagesCollection.items;
+        console.log("🥎", images)
         break;
-      case 'object':
-        images = objectImages;
-        break;
+      // case 'paintings':
+      //   images = paintingsImages;
+      //   break;
+      // case 'drawings':
+      //   images = drawingsImages;
+      //   break;
+      // case 'object':
+      //   images = objectImages;
+      //   break;
       default:
         break;
     }
@@ -117,14 +53,14 @@ export default function Works({ category }) {
         infiniteLoop
         id="carousel-container"
       >
-        {images.map((image, index) => (
+        {images.map((item, index) => (
           <div key={index} className="gallery-image">
-            <img src={image.url} alt={image.name} />
+            <img src={item.image.url} alt={item.image.name} />
           </div>
         ))}
       </Carousel>
-    );
-  };  
+    )
+  }
 
   return (
     <div id="works-wrapper">
