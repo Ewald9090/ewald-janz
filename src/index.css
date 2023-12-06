@@ -77,3 +77,12 @@ a {
     font-size: 1.5em; /* Adjust the font size for sub-menu items on smaller screens */
   }
 }
+
+.slider-wrapper, .axis-horizontal, .carousel-root {
+  min-height: 85vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
