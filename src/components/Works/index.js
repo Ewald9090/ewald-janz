@@ -16,35 +16,77 @@ const collageQuery = `
       }
     }
   }
-  `
+`
+const paintingQuery = `
+  query {
+    paintingsCollection {
+      items {
+      title
+        image {
+          url
+        }
+      }
+    }
+  }
+`
+
+const drawingQuery = `
+  query {
+    drawingsCollection {
+      items {
+      title
+        image {
+          url
+        }
+      }
+    }
+  }
+`
+const objectQuery = `
+  query {
+    objectCollection {
+      items {
+      title
+        image {
+          url
+        }
+      }
+    }
+  }
+`
 
 export default function Works({ category }) {
-  const { data: collageData } = useContentful(collageQuery);
   const [activeTab, setActiveTab] = useState(category ? category : 'paintings');
+  const { data: paintingData} = useContentful(paintingQuery);
+  const { data: collageData } = useContentful(collageQuery);
+  const { data: drawingData } = useContentful(drawingQuery);
+  const { data: objectData } = useContentful(objectQuery);
 
+  if (!paintingData || !collageData || !drawingData || !objectData) return <div>Loading...</div>
+
+  console.log("🤬", paintingData)
   if (collageData) console.log("⭐️ collage query", collageData.collagesCollection.items)
+  // if (paintingData) console.log("⭐️ collage query", paintingData.paintingsCollection.items)
 
   const renderImages = (category) => {
     let images = [];
-    console.log("🍎", collageData)
     switch (category) {
       case 'collages':
         images = collageData.collagesCollection.items;
-        console.log("🥎", images)
         break;
-      // case 'paintings':
-      //   images = paintingsImages;
-      //   break;
-      // case 'drawings':
-      //   images = drawingsImages;
-      //   break;
-      // case 'object':
-      //   images = objectImages;
-      //   break;
+      case 'paintings':
+        images = paintingData.paintingsCollection.items;
+        break;
+      case 'drawings':
+        images = drawingData.drawingsCollection.items;
+        break;
+      case 'object':
+        images = objectData.objectCollection.items;
+        break;
       default:
         break;
     }
-  
+
     return (
       <Carousel
         dynamicHeight
