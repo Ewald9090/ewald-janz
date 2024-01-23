@@ -12,6 +12,7 @@ const collageQuery = `
       title
         image {
           url
+          description
         }
       }
     }
@@ -24,6 +25,7 @@ const paintingQuery = `
       title
         image {
           url
+          description
         }
       }
     }
@@ -37,6 +39,7 @@ const drawingQuery = `
       title
         image {
           url
+          description
         }
       }
     }
@@ -49,6 +52,7 @@ const objectQuery = `
       title
         image {
           url
+          description
         }
       }
     }
@@ -98,6 +102,7 @@ export default function Works({ category }) {
         {images.map((item, index) => (
           <div key={index} className="gallery-image">
             <img src={item.image.url} alt={item.image.name} />
+            <div>{item.image.description}</div>
           </div>
         ))}
       </Carousel>
