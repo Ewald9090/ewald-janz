@@ -14,3 +14,7 @@
 .sub-menu .nav-link:hover {
     text-decoration: underline;
   }
+
+.nav-link-main:hover {
+    color: rgb(167, 167, 167);
+}  

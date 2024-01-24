@@ -17,7 +17,7 @@ function Nav() {
           onMouseEnter={toggleWorksSubMenu}
           onMouseLeave={toggleWorksSubMenu}
         >
-          <Link to="/works" className="nav-link">
+          <Link to="/works" className="nav-link nav-link-main">
             WORKS
           </Link>
           {showWorksSubMenu && (
@@ -49,21 +49,21 @@ function Nav() {
           )}
         </li>
         <li className="nav-item main-rubrik">
-          <Link to="/text" className="nav-link">
+          <Link to="/text" className="nav-link nav-link-main">
             TEXT
           </Link>
         </li>
         <li className="nav-item main-rubrik">
-          <Link to="/exhibitions" className="nav-link">
+          <Link to="/exhibitions" className="nav-link nav-link-main">
             EXHIBITIONS
           </Link>
         </li>
         <li className="nav-item main-rubrik">
-          <Link to="/cv" className="nav-link">
+          <Link to="/cv" className="nav-link nav-link-main">
             CV
           </Link>
           <li className="nav-item main-rubrik">
-          <Link to="/contact" className="nav-link">
+          <Link to="/contact" className="nav-link nav-link-main">
             CONTACT
           </Link>
         </li>          
