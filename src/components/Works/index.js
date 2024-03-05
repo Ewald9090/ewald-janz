@@ -68,10 +68,6 @@ export default function Works({ category }) {
 
   if (!paintingData || !collageData || !drawingData || !objectData) return <div>Loading...</div>
 
-  console.log("🤬", paintingData)
-  if (collageData) console.log("⭐️ collage query", collageData.collagesCollection.items)
-  // if (paintingData) console.log("⭐️ collage query", paintingData.paintingsCollection.items)
-
   const renderImages = (category) => {
     let images = [];
     switch (category) {
