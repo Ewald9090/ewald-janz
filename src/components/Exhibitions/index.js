@@ -67,7 +67,22 @@ export default function Exhibitions() {
         year: 2023,
         title: "Organisation, Kuration und Teilnahme an 'KUNSTHURETRÆMT'",
         description: "Ausstellung mit Alexander Lang, Tusche Galerie Weimar"
-      }
+      },
+      {
+        year: 2024,
+        title: "Beteiligung an „After art Karlsruhe & Guests, Group-Show“",
+        description: "bei Monica Ruppert, Frankfurt"
+      },
+      {
+        year: 2024,
+        title: "Beteiligung an „DOGS – Instinkt und Zuneigung“",
+        description: "Gruppenausstellung auf Burg Wertheim"
+      },
+      {
+        year: 2024,
+        title: "„DIE DEUTSCHE WAHRHEIT IM EIGENEM SAFT““",
+        description: "studio kolibri, Naumburg"
+      }   
     ];
 
   return (
