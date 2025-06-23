@@ -40,6 +40,79 @@ const textContent = {
     <p>Die eingespeisten Bereiche, längst nicht mehr überschaubar, verhangen vom geheimnisvollen Dunst der Verständnislosigkeit.</p>
     <p>Um zu neuem, unverhofften Leben zu erwachen, erschaffen sie, als Maske vorerst, ihr eigenes Gesicht und starren uns dann an, aus dem wirren Überschwall wimmelnder Bildflächen fordern sie ihr Fleisch, öffnen Münder und beginnen murmelnd uns die neuen Spielregeln zu diktieren.</p>
   `,
+  affentriptychon: `
+  <h3>Affentriptychon</h3>
+  <p><strong>Drei Bilder von Ewald Janz</strong></p>
+  <p>„Gnôthi seautón“ (γνῶθι σεαυτόν – Erkenne dich selbst!) und „Medèn ágan“ (μηδὲν ἄγαν – Nichts im Übermaß!) – die Inschriften des Apollotempels zu Delphi leuchten wie geisterhafte Wegweiser in eine überreizte Gegenwart.<br/>
+  Drei Bilder, drei Affen, drei Akte der Erkenntnis.</p>
+
+  <h4>Warum Affen?</h4>
+  <p>Sie sind uns näher, als wir wahrhaben wollen. Spiegel und Zerrbild zugleich: Trieb, Technik, Trauma. Einst Symbol des Fortschritts – nun Zeugen eines Sturzes, der längst begonnen hat. Darwin raubte uns Adam und Eva, Kepler die Erde als Mittelpunkt. Was bleibt uns? Der Monolith, der Bildschirm, das Loch im Netz.</p>
+  <p>In der Serie begegnen uns Affen als Prototypen einer Menschheit, die ihre eigene Evolution nicht überlebt. Sie sind Versuchstiere, Propheten, Performer – durch ihre Augen sehen wir das Ende als Farbspektakel: flimmernd, grell, ikonisch.</p>
+  <p>Der Boden wankt. Der Wald stirbt. Die Daten brennen.<br/>
+  Wir befinden uns im Anthropozän – der Ära des selbstverschuldeten Kontrollverlusts. Während Affenmütter aus Stoff künstlich trösten, zapfen Maschinenhirne Pong-Signale aus Gedanken. Alles ist vernetzt – und nichts mehr verbunden.</p>
+  <p>Diese Bilder inszenieren keine buchstäbliche Flut – sondern eine metaphorische:<br/>
+  von Bildern, Systemen, Technologien.<br/>
+  Sie spiegeln den Moment der Überforderung, der Überreizung, des Zusammenbruchs.<br/>
+  So wie Wasser in der Flut alles mitreißt, so reißen sie den Blick in einen Strudel aus Reiz, Gewalt und Erkenntnis.<br/>
+  Warnzeichen aus der Vorhölle der Postzivilisation.</p>
+
+  <hr/>
+
+  <h4>„Schöne Appokalypse! (Die Entdeckung der Waffe)“</h4>
+  <blockquote>„Hören Sie die Summe der ganzen Sache in einem kurzen Wort: Jede Kunst, die der Mensch besitzt, stammt von Prometheus.“<br/>– Aischylos</blockquote>
+  <p>Der Untergang der Zivilisation leuchtet in grellen Farben.<br/>
+  Die Affen – einer mit einem Knochen bewaffnet – sind ganz außer sich: kreischend, trommelnd, entfesselt.<br/>
+  Der Auslöser: ein glattes, schwarzes Etwas.<br/>
+  Es liegt vor ihnen – verführerisch und fremd.<br/>
+  Es handelt sich um das neueste iPhone-Modell. Aus seinen Lautsprechern dröhnt Ligetis Requiem.<br/>
+  Die Szene erinnert an Kubricks Monolith in 2001: A Space Odyssey – nur dass der Monolith hier in die Gegenwart gefallen ist.</p>
+  <p>Die Affen treiben auf orangen Plattformen, wie Eisschollen im Schmelz.<br/>
+  Hinter ihnen kollabiert die Zivilisation – auch architektonisch.<br/>
+  Zwischen Trümmern, die an das World Trade Center erinnern, starrt ein Totenschädel auf uns zurück.<br/>
+  Die Apokalypse ist schön. Und sie hat eine Fernbedienung.</p>
+
+  <hr/>
+
+  <h4>„Try Apple! (verbotene Frucht)“</h4>
+  <blockquote>„Nein, ihr werdet nicht sterben. Gott weiß vielmehr: Sobald ihr davon esst, gehen euch die Augen auf; ihr werdet wie Gott und erkennt Gut und Böse.“<br/>– Die große alte Schlange</blockquote>
+  <p>Ein Schädel hat in den Mond gebissen – wie in einen Apfel.<br/>
+  Ein anderer liegt auf einer Plattform, vor sich zwei wachsende Fliegenpilze.<br/>
+  Am Horizont: ein weiterer Fliegenpilz – nun als Atompilz.</p>
+  <p>Die Spiegelung zwischen Pilz und Pilz, zwischen Biss und Blick, zieht sich durch das Bild.</p>
+  <p>Ein Augapfel windet sich ins Zentrum – daran ein Strang wie ein Nervenband.<br/>
+  Er führt zu einem Symbol: halb Blindheit, halb radioaktive Warnung.<br/>
+  Im Epizentrum: das Apple-Logo.<br/>
+  Die Versuchung bleibt bestehen.<br/>
+  Die Schlange windet sich weiter – als wäre der zweite Biss unausweichlich.</p>
+  <p>Am rechten Bildrand: ein roter Baum, daran eine schwarze Tollkirsche – giftig, glänzend.<br/>
+  Davor steht ein iPhone, schwarz, dreiaugig.<br/>
+  Ein Mensch in oranger Anstaltskleidung flieht vor drei Affen –<br/>
+  wie Adam und Eva vor dem Engel,<br/>
+  wie Schneewittchen vor dem Spiegel.<br/>
+  Die Jäger sind nun die Gejagten.</p>
+
+  <hr/>
+
+  <h4>„Neue Apparate selektieren (Monkeys are the people of the future / People are machines)“</h4>
+  <p>Ein kybernetischer Altar aus drei Plattformen.<br/>
+  Versuchstiere in heroischer Pose – zur Maschine mutiert.<br/>
+  Im Zentrum: ein Rhesusaffe mit angenähter Roboterhand.<br/>
+  Die Prothese hält über sich einen blauen Pong-Ball – exakt an der Stelle, wo im ersten Bild das Auge stand.</p>
+  <p>Der Affe hebt die rechte Hand zur Schläfe – Denken als Befehl.<br/>
+  Auf dem Bildschirm vor ihm: das Pong-Spiel. Zwei Balken, ein Ball – minimalistischer Gottesbeweis.<br/>
+  Simulation und Subjekt spiegeln sich gegenseitig.</p>
+  <p>Rechts: eine künstliche Affenmutter aus Deckenstoff.<br/>
+  Ihr rechter Arm ist echt, blutig angenäht, ausgestreckt mit einem Playstation-Controller in der Hand.<br/>
+  Der Roboterhund – kopflos – trägt einen menschlichen Schädel.<br/>
+  Links unten: ein verletzter Rhesusaffe. Die Diode im Schädel leuchtet.<br/>
+  In der Lava darunter liegt ein dritter Schädel.</p>
+  <p>Eine DNA-Spirale windet sich durchs Bild.<br/>
+  Eine Kamera-Drohne schwebt heran – das Auge der Kybernetik.<br/>
+  Die Plattformen wirken wie Versuchsanordnungen eines gottverlassenen Labors.<br/>
+  Die Zukunft ist nicht posthuman. Sie ist prämechanisch. Und sie hat begonnen.</p>
+  <p><em>„Neue Apparate selektieren (Monkeys are the people of the future / People are machines)“ wurde mithilfe von ChatGpt erstellt, da diese schmutzige Datenkrake meinen Text gestohlen hat, musste ich auf diesen zurückgreifen…</em></p>
+`
   otherText1: `
     Other Text 1 Content...
   `,
