@@ -40,7 +40,86 @@ const textContent = {
     <p>Die eingespeisten Bereiche, längst nicht mehr überschaubar, verhangen vom geheimnisvollen Dunst der Verständnislosigkeit.</p>
     <p>Um zu neuem, unverhofften Leben zu erwachen, erschaffen sie, als Maske vorerst, ihr eigenes Gesicht und starren uns dann an, aus dem wirren Überschwall wimmelnder Bildflächen fordern sie ihr Fleisch, öffnen Münder und beginnen murmelnd uns die neuen Spielregeln zu diktieren.</p>
   `,
-  otherText1: `
+ traumSouvenir: `
+  <h3>Souvenir aus meinen Träumen</h3>
+
+  <p>Ich träumte von der Büste eines Hundes.<br/>
+  Sie stand in einem Blechregal in meinem Atelier und schaute mich an.</p>
+
+  <p>Als ich sie betrachtete, begannen sich die Augen zu bewegen,<br/>
+  wie in einer REM-Phase.</p>
+
+  <p>Als ich mit meinem Smartphone ein Video von den rollenden Augen der Büste machen wollte,<br/>
+  geschah etwas Merkwürdiges:<br/>
+  Das, was ich durch das Smartphone sah, war nicht die Büste.<br/>
+  Ich sah zeitversetzt durch die Kamera des Smartphones<br/>
+  nur andere Fragmente aus meinem Traum,<br/>
+  an die ich mich aber nicht mehr erinnere.</p>
+
+  <p>Als ich aufwachte, griff ich nach dem Smartphone, um mir das Video anzuschauen.<br/>
+  Dabei wurde mir bewusst, dass ich wach bin<br/>
+  und sich das Souvenir aus meinen Träumen<br/>
+  an der Schwelle des Bewusstseins aufgelöst hat.</p>,
+`
+,traumSouvenir: `...`,
+kindheitKollektivKatastrophe: `...`,
+kindheitKollektivKatastrophe: `
+  <h3>Bin ich das? Vielleicht ist das Ostdeutschland…</h3>
+  <p><em>Über die Serie „Kindheit, Kollektiv, Katastrophe“</em></p>
+
+  <p>Diese fünf Malereien sind Splitter aus meinem Inneren –<br/>
+  gebrochene Szenen, verdrehte Rituale, Überreste von irgendwas,<br/>
+  das nie ganz gelebt werden durfte.</p>
+
+  <p>Die Figuren sind keine Helden.<br/>
+  Sie sind verloren, kaputt, hässlich,<br/>
+  sie sabbern, schleichen, glotzen, irren.<br/>
+  Manche sind auf der Suche, manche haben schon aufgegeben.<br/>
+  Aber alle tragen diese Uniformen,<br/>
+  diese Anstaltskleidung – orange, billig, identisch –<br/>
+  weil sie aus einer Gesellschaft kommen,<br/>
+  die nur Ordnung kennt, wenn sie ausgrenzt.</p>
+
+  <p>Eines dieser Bilder – mit dem Baby da vorm Licht –<br/>
+  das ist ein Orakel.<br/>
+  Aber kein schönes.<br/>
+  Ein sabberndes Ding, das schreit: „Ich bin jetzt das Zentrum!“<br/>
+  Und niemand will das hören.<br/>
+  Vielleicht ist das Baby ich.<br/>
+  Vielleicht ist es Deutschland.<br/>
+  Vielleicht ist es nur der letzte Schrei einer Generation,<br/>
+  die in den Gräben ihrer Eltern aufgewachsen ist<br/>
+  und jetzt nicht weiß, wohin mit sich.</p>
+
+  <p>Acryl, schnell, schmutzig, direkt.<br/>
+  Als Vorlagen nehme ich aus einem Zustand gelassener Fokussiertheit<br/>
+  automatische Zeichnungen.<br/>
+  Farben müssen schreien.<br/>
+  Ich will, dass das Bild dich anguckt,<br/>
+  so wie einer, der zu lange in der Psychiatrie war<br/>
+  und jetzt draußen ist und dich fragt,<br/>
+  ob du ihm helfen kannst,<br/>
+  seine Mutter zu finden.</p>
+
+  <p>Diese fünf Bilder gehören zusammen,<br/>
+  weil sie aus derselben Dunkelkammer kommen.<br/>
+  Sie sind Fragmente. Tunnelöffnungen.<br/>
+  Vielleicht auch Beweise,<br/>
+  dass man in dieser Welt wahnsinnig werden darf –<br/>
+  solange man dabei nicht schweigt.</p>
+
+  <h4>Titel der fünf Bilder:</h4>
+  <ul>
+    <li>„Drei Verworfene im Kraterfeld (Schaufler, Schleicher, Schattenfresser)“</li>
+    <li>„I‘am the Baby now! Googoogaagaa!“</li>
+    <li>„Das letzte aufblühen der Verdammten (Bleischädel und Blütenzucker)“</li>
+    <li>„Euphorie im Endstadium – Der Körper sagt Nein, der Geist explodiert“</li>
+    <li>„Platonische Hölle – Leave no one behind“</li>
+  </ul>
+
+  <p><strong>Ewald Janz</strong></p>
+`
+otherText1: `
     Other Text 1 Content...
   `,
   otherText2: `
