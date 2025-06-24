@@ -1,4 +1,4 @@
-import { useState } from 'react';
+mport { useState } from 'react';
 import { Link } from 'react-router-dom';
 import "./Text.css"
 
@@ -57,7 +57,7 @@ const textContent = {
     <p>Aber alle tragen diese Uniformen, diese Anstaltskleidung – orange, billig, identisch – weil sie aus einer Gesellschaft kommen, die nur Ordnung kennt, wenn sie ausgrenzt.</p>
   `,
   affentriptychon: `
-    <h3>Affentriptychon – Drei Bilder von Ewald Janz</h3>
+    <h3>Affentriptychon </h3>
     <p>„Gnôthi seautón (Erkenne dich selbst!)“ und „Medèn ágan (Nichts im Übermaß!)“ – die Inschriften des Apollotempels zu Delphi leuchten wie geisterhafte Wegweiser in eine überreizte Gegenwart. Drei Bilder, drei Affen, drei Akte der Erkenntnis.</p>
     <p>Warum Affen? Sie sind uns näher als wir wahrhaben wollen. Spiegel und Zerrbild zugleich: Trieb, Technik, Trauma. Einst Symbol des Fortschritts – nun Zeugen eines Sturzes, der schon begonnen hat. Darwin raubte uns Adam und Eva, Kepler die Erde als Mittelpunkt. Was bleibt uns? Der Monolith, der Bildschirm, das Loch im Netz.</p>
     <p>In der Serie begegnen uns Affen als Prototypen einer Menschheit, die ihre eigene Evolution nicht überlebt. Sie sind Versuchstiere, Propheten, Performer – durch ihre Augen sehen wir das Menschliche im posthumanen Exzess, den wir selbst geschaffen haben.</p>
@@ -100,8 +100,8 @@ export default function Text() {
           <li onClick={() => setActiveTab('affentriptychon')} className={activeTab === 'affentriptychon' ? 'active' : ''}>
             Affentriptychon
           </li>
-        </ul> 
-      </div> 
+        </ul>
+      </div>
       <div id="text-content-container">
         {renderTextContent(activeTab)}
       </div>
