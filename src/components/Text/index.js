@@ -101,7 +101,7 @@ export default function Text() {
             Affentriptychon
           </li>
         </ul> 
-      </div>
+      </div> 
       <div id="text-content-container">
         {renderTextContent(activeTab)}
       </div>
