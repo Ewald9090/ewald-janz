@@ -111,7 +111,6 @@ const textContent = {
   Eine Kamera-Drohne schwebt heran – das Auge der Kybernetik.<br/>
   Die Plattformen wirken wie Versuchsanordnungen eines gottverlassenen Labors.<br/>
   Die Zukunft ist nicht posthuman. Sie ist prämechanisch. Und sie hat begonnen.</p>
-  <p><em>„Neue Apparate selektieren (Monkeys are the people of the future / People are machines)“ wurde mithilfe von ChatGpt erstellt, da diese schmutzige Datenkrake meinen Text gestohlen hat, musste ich auf diesen zurückgreifen…</em></p>
 `
   otherText1: `
     Other Text 1 Content...
