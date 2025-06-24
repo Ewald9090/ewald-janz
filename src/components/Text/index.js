@@ -100,7 +100,7 @@ export default function Text() {
           <li onClick={() => setActiveTab('affentriptychon')} className={activeTab === 'affentriptychon' ? 'active' : ''}>
             Affentriptychon
           </li>
-        </ul>
+        </ul> 
       </div>
       <div id="text-content-container">
         {renderTextContent(activeTab)}
