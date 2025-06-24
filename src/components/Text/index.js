@@ -4,7 +4,7 @@ import "./Text.css"
 
 // Define your text content here, you can organize it based on different categories
 const textContent = {
-  artistStatement: `
+    artistStatement: `
     <h3>Artist Statement Ewald Janz</h3>
     <blockquote>
       Ich staune, wie man lügen kann, wenn man die Vernunft auf seine Seite zieht. Natürlich hat sich nichts Neues ereignet, wenn man so will: heute morgen, um Viertel nach acht, als ich das Hotel blockquoterintania verließ, um in die Bibliothek zu gehen, habe ich ein Stück Papier, das auf der Erde herumlag, aufheben wollen und habe es nicht gekonnt. Das ist alles, und das ist nicht einmal ein Ereignis. Ja, aber, um die ganze Wahrheit zu sagen, ich bin davon zutiefst beeindruckt gewesen: ich habe gedacht, ich sei nicht mehr frei. 
@@ -40,159 +40,37 @@ const textContent = {
     <p>Die eingespeisten Bereiche, längst nicht mehr überschaubar, verhangen vom geheimnisvollen Dunst der Verständnislosigkeit.</p>
     <p>Um zu neuem, unverhofften Leben zu erwachen, erschaffen sie, als Maske vorerst, ihr eigenes Gesicht und starren uns dann an, aus dem wirren Überschwall wimmelnder Bildflächen fordern sie ihr Fleisch, öffnen Münder und beginnen murmelnd uns die neuen Spielregeln zu diktieren.</p>
   `,
-  traumSouvenir: `
-  <h3>Souvenir aus meinen Träumen</h3>
-
-  <p>Ich träumte von der Büste eines Hundes.<br/>
-  Sie stand in einem Blechregal in meinem Atelier und schaute mich an.</p>
-
-  <p>Als ich sie betrachtete, begannen sich die Augen zu bewegen,<br/>
-  wie in einer REM-Phase.</p>
-
-  <p>Als ich mit meinem Smartphone ein Video von den rollenden Augen der Büste machen wollte,<br/>
-  geschah etwas Merkwürdiges:<br/>
-  Das, was ich durch das Smartphone sah, war nicht die Büste.<br/>
-  Ich sah zeitversetzt durch die Kamera des Smartphones<br/>
-  nur andere Fragmente aus meinem Traum,<br/>
-  an die ich mich aber nicht mehr erinnere.</p>
-
-  <p>Als ich aufwachte, griff ich nach dem Smartphone, um mir das Video anzuschauen.<br/>
-  Dabei wurde mir bewusst, dass ich wach bin<br/>
-  und sich das Souvenir aus meinen Träumen<br/>
-  an der Schwelle des Bewusstseins aufgelöst hat.</p>
+  dreamSouvenir: `
+    <h3>Souvenir aus meinen Träumen</h3>
+    <p>Ich träumte von der Büste eines Hundes. Sie stand in einem Blechregal in meinem Atelier und schaute mich an.</p>
+    <p>Als ich sie betrachtete, begannen sich die Augen zu bewegen, wie in einer REM-Phase.</p>
+    <p>Als ich mit meinem Smartphone ein Video von den rollenden Augen der Büste machen wollte, geschah etwas Merkwürdiges: Das, was ich durch das Smartphone sah, war nicht die Büste.</p>
+    <p>Ich sah zeitversetzt durch die Kamera des Smartphones nur andere Fragmente aus meinem Traum, an die ich mich aber nicht mehr erinnere.</p>
+    <p>Als ich aufwachte, griff ich nach dem Smartphone um mir das Video anschauen. Dabei wurde mir bewusst, dass ich wach bin und sich das Souvenir aus meinen Träumen an der Schwelle des Bewusstseins aufgelöst hat.</p>
   `,
-  kindheitKollektivKatastrophe: `
-  <h3>Bin ich das? Vielleicht ist das Ostdeutschland…</h3>
-  <p><em>Über die Serie „Kindheit, Kollektiv, Katastrophe“</em></p>
-
-  <p>Diese fünf Malereien sind Splitter aus meinem Inneren –<br/>
-  gebrochene Szenen, verdrehte Rituale, Überreste von irgendwas,<br/>
-  das nie ganz gelebt werden durfte.</p>
-
-  <p>Die Figuren sind keine Helden.<br/>
-  Sie sind verloren, kaputt, hässlich,<br/>
-  sie sabbern, schleichen, glotzen, irren.<br/>
-  Manche sind auf der Suche, manche haben schon aufgegeben.<br/>
-  Aber alle tragen diese Uniformen,<br/>
-  diese Anstaltskleidung – orange, billig, identisch –<br/>
-  weil sie aus einer Gesellschaft kommen,<br/>
-  die nur Ordnung kennt, wenn sie ausgrenzt.</p>
-
-  <p>Eines dieser Bilder – mit dem Baby da vorm Licht –<br/>
-  das ist ein Orakel.<br/>
-  Aber kein schönes.<br/>
-  Ein sabberndes Ding, das schreit: „Ich bin jetzt das Zentrum!“<br/>
-  Und niemand will das hören.<br/>
-  Vielleicht ist das Baby ich.<br/>
-  Vielleicht ist es Deutschland.<br/>
-  Vielleicht ist es nur der letzte Schrei einer Generation,<br/>
-  die in den Gräben ihrer Eltern aufgewachsen ist<br/>
-  und jetzt nicht weiß, wohin mit sich.</p>
-
-  <p>Acryl, schnell, schmutzig, direkt.<br/>
-  Als Vorlagen nehme ich aus einem Zustand gelassener Fokussiertheit<br/>
-  automatische Zeichnungen.<br/>
-  Farben müssen schreien.<br/>
-  Ich will, dass das Bild dich anguckt,<br/>
-  so wie einer, der zu lange in der Psychiatrie war<br/>
-  und jetzt draußen ist und dich fragt,<br/>
-  ob du ihm helfen kannst,<br/>
-  seine Mutter zu finden.</p>
-
-  <p>Diese fünf Bilder gehören zusammen,<br/>
-  weil sie aus derselben Dunkelkammer kommen.<br/>
-  Sie sind Fragmente. Tunnelöffnungen.<br/>
-  Vielleicht auch Beweise,<br/>
-  dass man in dieser Welt wahnsinnig werden darf –<br/>
-  solange man dabei nicht schweigt.</p>
+  ostdeutschland: `
+    <h3>Bin ich das? Vielleicht ist das Ostdeutschland…</h3>
+    <p>Diese fünf Malereien sind Splitter aus meinem Inneren –</p>
+    <p>gebrochene Szenen, verdrehte Rituale, Überreste von irgendwas, das nie ganz gelebt werden durfte.</p>
+    <p>Die Figuren sind keine Helden. Sie sind verloren, kaputt, hässlich, sie sabbern, schleichen, glotzen, irren.</p>
+    <p>Manche sind auf der Suche, manche haben schon aufgegeben.</p>
+    <p>Aber alle tragen diese Uniformen, diese Anstaltskleidung – orange, billig, identisch – weil sie aus einer Gesellschaft kommen, die nur Ordnung kennt, wenn sie ausgrenzt.</p>
   `,
   affentriptychon: `
-  <h3>Affentriptychon</h3>
-  <p><strong>Drei Bilder von Ewald Janz</strong></p>
-  <p>„Gnôthi seautón“ (γνῶθι σεαυτόν – Erkenne dich selbst!) und „Medèn ágan“ (μηδὲν ἄγαν – Nichts im Übermaß!) – die Inschriften des Apollotempels zu Delphi leuchten wie geisterhafte Wegweiser in eine überreizte Gegenwart.<br/>
-  Drei Bilder, drei Affen, drei Akte der Erkenntnis.</p>
-
-  <h4>Warum Affen?</h4>
-  <p>Sie sind uns näher, als wir wahrhaben wollen. Spiegel und Zerrbild zugleich: Trieb, Technik, Trauma. Einst Symbol des Fortschritts – nun Zeugen eines Sturzes, der längst begonnen hat. Darwin raubte uns Adam und Eva, Kepler die Erde als Mittelpunkt. Was bleibt uns? Der Monolith, der Bildschirm, das Loch im Netz.</p>
-  <p>In der Serie begegnen uns Affen als Prototypen einer Menschheit, die ihre eigene Evolution nicht überlebt. Sie sind Versuchstiere, Propheten, Performer – durch ihre Augen sehen wir das Ende als Farbspektakel: flimmernd, grell, ikonisch.</p>
-  <p>Der Boden wankt. Der Wald stirbt. Die Daten brennen.<br/>
-  Wir befinden uns im Anthropozän – der Ära des selbstverschuldeten Kontrollverlusts. Während Affenmütter aus Stoff künstlich trösten, zapfen Maschinenhirne Pong-Signale aus Gedanken. Alles ist vernetzt – und nichts mehr verbunden.</p>
-  <p>Diese Bilder inszenieren keine buchstäbliche Flut – sondern eine metaphorische:<br/>
-  von Bildern, Systemen, Technologien.<br/>
-  Sie spiegeln den Moment der Überforderung, der Überreizung, des Zusammenbruchs.<br/>
-  So wie Wasser in der Flut alles mitreißt, so reißen sie den Blick in einen Strudel aus Reiz, Gewalt und Erkenntnis.<br/>
-  Warnzeichen aus der Vorhölle der Postzivilisation.</p>
-
-  <hr/>
-
-  <h4>„Schöne Appokalypse! (Die Entdeckung der Waffe)“</h4>
-  <blockquote>„Hören Sie die Summe der ganzen Sache in einem kurzen Wort: Jede Kunst, die der Mensch besitzt, stammt von Prometheus.“<br/>– Aischylos</blockquote>
-  <p>Der Untergang der Zivilisation leuchtet in grellen Farben.<br/>
-  Die Affen – einer mit einem Knochen bewaffnet – sind ganz außer sich: kreischend, trommelnd, entfesselt.<br/>
-  Der Auslöser: ein glattes, schwarzes Etwas.<br/>
-  Es liegt vor ihnen – verführerisch und fremd.<br/>
-  Es handelt sich um das neueste iPhone-Modell. Aus seinen Lautsprechern dröhnt Ligetis Requiem.<br/>
-  Die Szene erinnert an Kubricks Monolith in 2001: A Space Odyssey – nur dass der Monolith hier in die Gegenwart gefallen ist.</p>
-  <p>Die Affen treiben auf orangen Plattformen, wie Eisschollen im Schmelz.<br/>
-  Hinter ihnen kollabiert die Zivilisation – auch architektonisch.<br/>
-  Zwischen Trümmern, die an das World Trade Center erinnern, starrt ein Totenschädel auf uns zurück.<br/>
-  Die Apokalypse ist schön. Und sie hat eine Fernbedienung.</p>
-
-  <hr/>
-
-  <h4>„Try Apple! (verbotene Frucht)“</h4>
-  <blockquote>„Nein, ihr werdet nicht sterben. Gott weiß vielmehr: Sobald ihr davon esst, gehen euch die Augen auf; ihr werdet wie Gott und erkennt Gut und Böse.“<br/>– Die große alte Schlange</blockquote>
-  <p>Ein Schädel hat in den Mond gebissen – wie in einen Apfel.<br/>
-  Ein anderer liegt auf einer Plattform, vor sich zwei wachsende Fliegenpilze.<br/>
-  Am Horizont: ein weiterer Fliegenpilz – nun als Atompilz.</p>
-  <p>Die Spiegelung zwischen Pilz und Pilz, zwischen Biss und Blick, zieht sich durch das Bild.</p>
-  <p>Ein Augapfel windet sich ins Zentrum – daran ein Strang wie ein Nervenband.<br/>
-  Er führt zu einem Symbol: halb Blindheit, halb radioaktive Warnung.<br/>
-  Im Epizentrum: das Apple-Logo.<br/>
-  Die Versuchung bleibt bestehen.<br/>
-  Die Schlange windet sich weiter – als wäre der zweite Biss unausweichlich.</p>
-  <p>Am rechten Bildrand: ein roter Baum, daran eine schwarze Tollkirsche – giftig, glänzend.<br/>
-  Davor steht ein iPhone, schwarz, dreiaugig.<br/>
-  Ein Mensch in oranger Anstaltskleidung flieht vor drei Affen –<br/>
-  wie Adam und Eva vor dem Engel,<br/>
-  wie Schneewittchen vor dem Spiegel.<br/>
-  Die Jäger sind nun die Gejagten.</p>
-
-  <hr/>
-
-  <h4>„Neue Apparate selektieren (Monkeys are the people of the future / People are machines)“</h4>
-  <p>Ein kybernetischer Altar aus drei Plattformen.<br/>
-  Versuchstiere in heroischer Pose – zur Maschine mutiert.<br/>
-  Im Zentrum: ein Rhesusaffe mit angenähter Roboterhand.<br/>
-  Die Prothese hält über sich einen blauen Pong-Ball – exakt an der Stelle, wo im ersten Bild das Auge stand.</p>
-  <p>Der Affe hebt die rechte Hand zur Schläfe – Denken als Befehl.<br/>
-  Auf dem Bildschirm vor ihm: das Pong-Spiel. Zwei Balken, ein Ball – minimalistischer Gottesbeweis.<br/>
-  Simulation und Subjekt spiegeln sich gegenseitig.</p>
-  <p>Rechts: eine künstliche Affenmutter aus Deckenstoff.<br/>
-  Ihr rechter Arm ist echt, blutig angenäht, ausgestreckt mit einem Playstation-Controller in der Hand.<br/>
-  Der Roboterhund – kopflos – trägt einen menschlichen Schädel.<br/>
-  Links unten: ein verletzter Rhesusaffe. Die Diode im Schädel leuchtet.<br/>
-  In der Lava darunter liegt ein dritter Schädel.</p>
-  <p>Eine DNA-Spirale windet sich durchs Bild.<br/>
-  Eine Kamera-Drohne schwebt heran – das Auge der Kybernetik.<br/>
-  Die Plattformen wirken wie Versuchsanordnungen eines gottverlassenen Labors.<br/>
-  Die Zukunft ist nicht posthuman. Sie ist prämechanisch. Und sie hat begonnen.</p>
-`,
-`
-  // Add more text content as needed
+    <h3>Affentriptychon – Drei Bilder von Ewald Janz</h3>
+    <p>„Gnôthi seautón (Erkenne dich selbst!)“ und „Medèn ágan (Nichts im Übermaß!)“ – die Inschriften des Apollotempels zu Delphi leuchten wie geisterhafte Wegweiser in eine überreizte Gegenwart. Drei Bilder, drei Affen, drei Akte der Erkenntnis.</p>
+    <p>Warum Affen? Sie sind uns näher als wir wahrhaben wollen. Spiegel und Zerrbild zugleich: Trieb, Technik, Trauma. Einst Symbol des Fortschritts – nun Zeugen eines Sturzes, der schon begonnen hat. Darwin raubte uns Adam und Eva, Kepler die Erde als Mittelpunkt. Was bleibt uns? Der Monolith, der Bildschirm, das Loch im Netz.</p>
+    <p>In der Serie begegnen uns Affen als Prototypen einer Menschheit, die ihre eigene Evolution nicht überlebt. Sie sind Versuchstiere, Propheten, Performer – durch ihre Augen sehen wir das Menschliche im posthumanen Exzess, den wir selbst geschaffen haben.</p>
+  `
 };
 
 export default function Text() {
-  const [activeTab, setActiveTab] = useState('artistStatement'); // Default to artistStatement tab
+  const [activeTab, setActiveTab] = useState('artistStatement');
 
   const renderTextContent = (category) => {
     return (
       <div id="text-content">
-        {category === 'artistStatement' ? (
-          <div id="artist-statement" dangerouslySetInnerHTML={{ __html: textContent[category] }} />
-        ) : (
-          <div dangerouslySetInnerHTML={{ __html: textContent[category] }} />
-        )}
+        <div dangerouslySetInnerHTML={{ __html: textContent[category] }} />
       </div>
     );
   }
@@ -204,20 +82,23 @@ export default function Text() {
           <span className="material-symbols-outlined">
             arrow_back
           </span>
-        </Link>        
+        </Link>
         <h2>TEXT</h2>
         <ul id="text-nav">
-          <li
-            onClick={() => setActiveTab('artistStatement')}
-            className={activeTab === 'artistStatement' ? 'active' : ''}
-          >
+          <li onClick={() => setActiveTab('artistStatement')} className={activeTab === 'artistStatement' ? 'active' : ''}>
             Artist Statement
           </li>
-          <li
-            onClick={() => setActiveTab('starSeeker')}
-            className={activeTab === 'starSeeker' ? 'active' : ''}
-          >
+          <li onClick={() => setActiveTab('starSeeker')} className={activeTab === 'starSeeker' ? 'active' : ''}>
             Der Star unter den Suchenden
+          </li>
+          <li onClick={() => setActiveTab('dreamSouvenir')} className={activeTab === 'dreamSouvenir' ? 'active' : ''}>
+            Souvenir aus meinen Träumen
+          </li>
+          <li onClick={() => setActiveTab('ostdeutschland')} className={activeTab === 'ostdeutschland' ? 'active' : ''}>
+            Bin ich das? Vielleicht ist das Ostdeutschland…
+          </li>
+          <li onClick={() => setActiveTab('affentriptychon')} className={activeTab === 'affentriptychon' ? 'active' : ''}>
+            Affentriptychon
           </li>
         </ul>
       </div>
